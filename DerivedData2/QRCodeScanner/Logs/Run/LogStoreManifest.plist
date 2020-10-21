@@ -5,6 +5,279 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>01B9EC20-5311-46EC-80F3-F2413C6E987B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>01B9EC20-5311-46EC-80F3-F2413C6E987B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624976294.97735906</real>
+			<key>timeStoppedRecording</key>
+			<real>624976311.84779203</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>01B9EC20-5311-46EC-80F3-F2413C6E987B</string>
+		</dict>
+		<key>1A7B4D3E-0804-47D9-A709-BFBAC1464880</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1A7B4D3E-0804-47D9-A709-BFBAC1464880.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624976194.89870501</real>
+			<key>timeStoppedRecording</key>
+			<real>624976294.67115295</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>1A7B4D3E-0804-47D9-A709-BFBAC1464880</string>
+		</dict>
+		<key>239A49C8-BA85-4D3B-819F-F7DF0AD4A939</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>239A49C8-BA85-4D3B-819F-F7DF0AD4A939.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624976794.73938096</real>
+			<key>timeStoppedRecording</key>
+			<real>624976813.50123894</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>239A49C8-BA85-4D3B-819F-F7DF0AD4A939</string>
+		</dict>
+		<key>385569F3-EA61-4E9B-B739-C3846ADA8C69</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>385569F3-EA61-4E9B-B739-C3846ADA8C69.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624976327.32877803</real>
+			<key>timeStoppedRecording</key>
+			<real>624976341.10050297</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>385569F3-EA61-4E9B-B739-C3846ADA8C69</string>
+		</dict>
+		<key>5B78EF14-D991-409E-9C23-513B03897572</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5B78EF14-D991-409E-9C23-513B03897572.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624975978.689448</real>
+			<key>timeStoppedRecording</key>
+			<real>624976195.07555199</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>5B78EF14-D991-409E-9C23-513B03897572</string>
+		</dict>
+		<key>5CB27817-FAF2-409C-AE85-D76568573B35</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5CB27817-FAF2-409C-AE85-D76568573B35.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624976348.72092795</real>
+			<key>timeStoppedRecording</key>
+			<real>624976793.02547705</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>5CB27817-FAF2-409C-AE85-D76568573B35</string>
+		</dict>
+		<key>6DAC9FF9-924C-40CE-B510-C2895B910F54</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6DAC9FF9-924C-40CE-B510-C2895B910F54.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624976312.14679098</real>
+			<key>timeStoppedRecording</key>
+			<real>624976327.02604997</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>6DAC9FF9-924C-40CE-B510-C2895B910F54</string>
+		</dict>
+		<key>8174C5A6-B6D4-4CDB-A8A0-E11C2EAD2446</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8174C5A6-B6D4-4CDB-A8A0-E11C2EAD2446.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624975615.68175805</real>
+			<key>timeStoppedRecording</key>
+			<real>624975978.22680295</real>
+			<key>title</key>
+			<string>Run QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>8174C5A6-B6D4-4CDB-A8A0-E11C2EAD2446</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
