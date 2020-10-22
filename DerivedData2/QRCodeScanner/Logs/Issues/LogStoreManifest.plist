@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>C890AB89-A5A2-4D58-B5C3-F5888C981226</key>
+		<key>ECCBADC8-2743-442A-A479-A26E781E91DA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>C890AB89-A5A2-4D58-B5C3-F5888C981226.xcactivitylog</string>
+			<string>ECCBADC8-2743-442A-A479-A26E781E91DA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>QRCodeScanner-cbjcnrjghacrozgbohzbfvhurcsl</string>
 			<key>timeStartedRecording</key>
-			<real>625060759.24164104</real>
+			<real>625080360.17009401</real>
 			<key>timeStoppedRecording</key>
-			<real>625060760.36621201</real>
+			<real>625080361.56759095</real>
 			<key>title</key>
 			<string>Build target QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>C890AB89-A5A2-4D58-B5C3-F5888C981226</string>
+			<string>ECCBADC8-2743-442A-A479-A26E781E91DA</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

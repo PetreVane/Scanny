@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BDF1D2C2541ADD8005C71E8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF1D2B2541ADD8005C71E8 /* Coordinator.swift */; };
 		0BF358B025405CA8004EBB95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358AF25405CA8004EBB95 /* AppDelegate.swift */; };
 		0BF358B225405CA8004EBB95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358B125405CA8004EBB95 /* SceneDelegate.swift */; };
 		0BF358B925405CA9004EBB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF358B825405CA9004EBB95 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BDF1D2B2541ADD8005C71E8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0BF358AC25405CA8004EBB95 /* QRCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF358AF25405CA8004EBB95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF358B125405CA8004EBB95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDF1D2A2541ADC7005C71E8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0BDF1D2B2541ADD8005C71E8 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		0BF358A325405CA8004EBB95 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		0BF358AE25405CA8004EBB95 /* QRCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				0BDF1D2A2541ADC7005C71E8 /* Coordinator */,
 				0BF358AF25405CA8004EBB95 /* AppDelegate.swift */,
 				0BF358B125405CA8004EBB95 /* SceneDelegate.swift */,
 				0BF358D92541AB54004EBB95 /* Resources */,
@@ -165,6 +176,7 @@
 			files = (
 				0BF358B025405CA8004EBB95 /* AppDelegate.swift in Sources */,
 				0BF358CD25406E86004EBB95 /* CustomLabel.swift in Sources */,
+				0BDF1D2C2541ADD8005C71E8 /* Coordinator.swift in Sources */,
 				0BF358CA2540669B004EBB95 /* ScanningScreenViewController.swift in Sources */,
 				0BF358C625405E04004EBB95 /* StartingViewController.swift in Sources */,
 				0BF358B225405CA8004EBB95 /* SceneDelegate.swift in Sources */,

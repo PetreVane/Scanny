@@ -1,9 +1,10 @@
 version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
 options: "51ce4fd9f82d0995babfce421b7c6440"
-build_time: [1603367796, 642902000]
+build_time: [1603368537, 120089000]
 inputs:
   "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/AppDelegate.swift": [1603282216, 637841847]
-  "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/CustomLabel.swift": [1603362482, 334535761]
-  "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/ScanningScreenViewController.swift": [1603367796, 63251017]
-  "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/StartingViewController.swift": [1603290954, 70409271]
+  "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Visual Elements/CustomLabel.swift": [1603362482, 334535761]
+  "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Coordinator/Coordinator.swift": [9223372036, 854775807]
+  "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Screens/ScanningScreenViewController.swift": [1603367796, 63251017]
+  "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Screens/StartingViewController.swift": [1603290954, 70409271]
   "/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/SceneDelegate.swift": [1603285333, 322437114]
