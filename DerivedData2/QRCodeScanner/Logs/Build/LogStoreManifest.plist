@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>02B7958C-96A6-4166-91CA-B40F75E57363</key>
+		<key>08E347CF-5124-40B4-A7B5-AB07814B5075</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>02B7958C-96A6-4166-91CA-B40F75E57363.xcactivitylog</string>
+			<string>08E347CF-5124-40B4-A7B5-AB07814B5075.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624975615.02108395</real>
+			<real>625058745.27610898</real>
 			<key>timeStoppedRecording</key>
-			<real>624975615.66112399</real>
+			<real>625058745.78672099</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>02B7958C-96A6-4166-91CA-B40F75E57363</string>
+			<string>08E347CF-5124-40B4-A7B5-AB07814B5075</string>
 		</dict>
-		<key>084E884A-C996-4044-8841-A94BF83B0D73</key>
+		<key>0CD477BD-AE02-4250-B84C-B310A3AD5E47</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>084E884A-C996-4044-8841-A94BF83B0D73.xcactivitylog</string>
+			<string>0CD477BD-AE02-4250-B84C-B310A3AD5E47.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976186.60666895</real>
+			<real>625060190.11627305</real>
 			<key>timeStoppedRecording</key>
-			<real>624976187.14832902</real>
+			<real>625060190.793226</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>084E884A-C996-4044-8841-A94BF83B0D73</string>
+			<string>0CD477BD-AE02-4250-B84C-B310A3AD5E47</string>
 		</dict>
-		<key>1AC14CEB-D4D7-4C44-AE78-9B64BFCFA091</key>
+		<key>17492868-FA6C-4220-9E88-51E48FCA933E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1AC14CEB-D4D7-4C44-AE78-9B64BFCFA091.xcactivitylog</string>
+			<string>17492868-FA6C-4220-9E88-51E48FCA933E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976294.42494702</real>
+			<real>625060596.61777306</real>
 			<key>timeStoppedRecording</key>
-			<real>624976294.97527206</real>
+			<real>625060597.12346601</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>1AC14CEB-D4D7-4C44-AE78-9B64BFCFA091</string>
+			<string>17492868-FA6C-4220-9E88-51E48FCA933E</string>
 		</dict>
-		<key>4262479F-FC66-4E31-A9B8-94794E1AF970</key>
+		<key>1D397B8C-78F0-4AFB-9A98-85D63A0998FE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4262479F-FC66-4E31-A9B8-94794E1AF970.xcactivitylog</string>
+			<string>1D397B8C-78F0-4AFB-9A98-85D63A0998FE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976194.83607197</real>
+			<real>625058614.55696595</real>
 			<key>timeStoppedRecording</key>
-			<real>624976194.89633405</real>
+			<real>625058615.06042099</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>4262479F-FC66-4E31-A9B8-94794E1AF970</string>
+			<string>1D397B8C-78F0-4AFB-9A98-85D63A0998FE</string>
 		</dict>
-		<key>572308E4-3742-4088-9BBB-F7917994CEF5</key>
+		<key>1EB64527-1A8D-4378-B68D-CF4F21DC21BF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>572308E4-3742-4088-9BBB-F7917994CEF5.xcactivitylog</string>
+			<string>1EB64527-1A8D-4378-B68D-CF4F21DC21BF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976326.77950096</real>
+			<real>625060767.71291494</real>
 			<key>timeStoppedRecording</key>
-			<real>624976327.32674599</real>
+			<real>625060767.74727499</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>572308E4-3742-4088-9BBB-F7917994CEF5</string>
+			<string>1EB64527-1A8D-4378-B68D-CF4F21DC21BF</string>
 		</dict>
-		<key>7787DE87-DB34-4064-8196-C08DD459C52D</key>
+		<key>24B71118-F5D1-487B-AADF-8F0DD2558E50</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7787DE87-DB34-4064-8196-C08DD459C52D.xcactivitylog</string>
+			<string>24B71118-F5D1-487B-AADF-8F0DD2558E50.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976311.60176599</real>
+			<real>625058719.51191604</real>
 			<key>timeStoppedRecording</key>
-			<real>624976312.14464998</real>
+			<real>625058720.01935804</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>7787DE87-DB34-4064-8196-C08DD459C52D</string>
+			<string>24B71118-F5D1-487B-AADF-8F0DD2558E50</string>
 		</dict>
-		<key>83021F58-82E3-4299-9B21-9E98E72A8DE7</key>
+		<key>259508D9-4717-42CF-8692-287826E5FD45</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -219,41 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>83021F58-82E3-4299-9B21-9E98E72A8DE7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>QRCodeScanner project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>QRCodeScanner</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build QRCodeScanner</string>
-			<key>timeStartedRecording</key>
-			<real>624976340.85289502</real>
-			<key>timeStoppedRecording</key>
-			<real>624976341.00418496</real>
-			<key>title</key>
-			<string>Build QRCodeScanner</string>
-			<key>uniqueIdentifier</key>
-			<string>83021F58-82E3-4299-9B21-9E98E72A8DE7</string>
-		</dict>
-		<key>8401A113-52BE-453A-B5E5-ECBB644C85A2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8401A113-52BE-453A-B5E5-ECBB644C85A2.xcactivitylog</string>
+			<string>259508D9-4717-42CF-8692-287826E5FD45.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +236,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624975977.98724306</real>
+			<real>625057931.00359797</real>
 			<key>timeStoppedRecording</key>
-			<real>624975978.68654799</real>
+			<real>625057931.21981001</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>8401A113-52BE-453A-B5E5-ECBB644C85A2</string>
+			<string>259508D9-4717-42CF-8692-287826E5FD45</string>
 		</dict>
-		<key>A07759A1-B800-49D5-993C-8090817BA09F</key>
+		<key>278E4C9D-2B89-4D04-BC64-F911B1518E64</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -287,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A07759A1-B800-49D5-993C-8090817BA09F.xcactivitylog</string>
+			<string>278E4C9D-2B89-4D04-BC64-F911B1518E64.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +270,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624975566.00296402</real>
+			<real>625060759.19007099</real>
 			<key>timeStoppedRecording</key>
-			<real>624975567.56423497</real>
+			<real>625060760.37213695</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>A07759A1-B800-49D5-993C-8090817BA09F</string>
+			<string>278E4C9D-2B89-4D04-BC64-F911B1518E64</string>
 		</dict>
-		<key>D23451D2-E444-4918-B703-3F4A4BE4418E</key>
+		<key>28233F0D-845F-4712-853B-FB96857C293A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -321,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>D23451D2-E444-4918-B703-3F4A4BE4418E.xcactivitylog</string>
+			<string>28233F0D-845F-4712-853B-FB96857C293A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +304,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976813.25549102</real>
+			<real>625058664.16499603</real>
 			<key>timeStoppedRecording</key>
-			<real>624976813.81059897</real>
+			<real>625058664.66717196</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>D23451D2-E444-4918-B703-3F4A4BE4418E</string>
+			<string>28233F0D-845F-4712-853B-FB96857C293A</string>
 		</dict>
-		<key>F2CB54D0-A748-46D3-B23B-4A757A1DE085</key>
+		<key>2C74DAFA-610A-4DDF-9BA8-FD71A40A2C2D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -355,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F2CB54D0-A748-46D3-B23B-4A757A1DE085.xcactivitylog</string>
+			<string>2C74DAFA-610A-4DDF-9BA8-FD71A40A2C2D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +338,15 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976348.18655801</real>
+			<real>625058473.33138394</real>
 			<key>timeStoppedRecording</key>
-			<real>624976348.71722996</real>
+			<real>625058473.86051798</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>F2CB54D0-A748-46D3-B23B-4A757A1DE085</string>
+			<string>2C74DAFA-610A-4DDF-9BA8-FD71A40A2C2D</string>
 		</dict>
-		<key>F44C4032-5F7B-436C-8648-94EE1557A660</key>
+		<key>339E86F6-9CFD-4DF8-B41F-A369126AE98C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -389,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F44C4032-5F7B-436C-8648-94EE1557A660.xcactivitylog</string>
+			<string>339E86F6-9CFD-4DF8-B41F-A369126AE98C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,13 +372,727 @@
 			<key>signature</key>
 			<string>Build QRCodeScanner</string>
 			<key>timeStartedRecording</key>
-			<real>624976792.77844405</real>
+			<real>625058726.70000994</real>
 			<key>timeStoppedRecording</key>
-			<real>624976794.73693597</real>
+			<real>625058727.20105803</real>
 			<key>title</key>
 			<string>Build QRCodeScanner</string>
 			<key>uniqueIdentifier</key>
-			<string>F44C4032-5F7B-436C-8648-94EE1557A660</string>
+			<string>339E86F6-9CFD-4DF8-B41F-A369126AE98C</string>
+		</dict>
+		<key>38214890-17A2-4E91-9AAE-D8E2DE026EB1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>38214890-17A2-4E91-9AAE-D8E2DE026EB1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060470.01790595</real>
+			<key>timeStoppedRecording</key>
+			<real>625060470.54375505</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>38214890-17A2-4E91-9AAE-D8E2DE026EB1</string>
+		</dict>
+		<key>3F28E1D5-8CF3-44EE-B8D6-5BCAB910026D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3F28E1D5-8CF3-44EE-B8D6-5BCAB910026D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058428.54650402</real>
+			<key>timeStoppedRecording</key>
+			<real>625058429.09176505</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>3F28E1D5-8CF3-44EE-B8D6-5BCAB910026D</string>
+		</dict>
+		<key>61073967-4AF0-452F-9A74-9ED929785E8F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>61073967-4AF0-452F-9A74-9ED929785E8F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060525.30983198</real>
+			<key>timeStoppedRecording</key>
+			<real>625060525.83906698</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>61073967-4AF0-452F-9A74-9ED929785E8F</string>
+		</dict>
+		<key>62787D83-F5EA-49AA-B0D9-F5E0DF970175</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>62787D83-F5EA-49AA-B0D9-F5E0DF970175.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060366.31788194</real>
+			<key>timeStoppedRecording</key>
+			<real>625060366.84180701</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>62787D83-F5EA-49AA-B0D9-F5E0DF970175</string>
+		</dict>
+		<key>7345FFCC-3329-41F0-B824-B873840C657F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7345FFCC-3329-41F0-B824-B873840C657F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058632.23677695</real>
+			<key>timeStoppedRecording</key>
+			<real>625058632.75563598</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>7345FFCC-3329-41F0-B824-B873840C657F</string>
+		</dict>
+		<key>7BF9DF73-3912-4D19-8D9F-EACEC9753C23</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7BF9DF73-3912-4D19-8D9F-EACEC9753C23.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060219.51574504</real>
+			<key>timeStoppedRecording</key>
+			<real>625060220.05454504</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>7BF9DF73-3912-4D19-8D9F-EACEC9753C23</string>
+		</dict>
+		<key>7DA5D9FE-A33D-4FFF-9B95-1F104E2AC53A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7DA5D9FE-A33D-4FFF-9B95-1F104E2AC53A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>624981298.38111806</real>
+			<key>timeStoppedRecording</key>
+			<real>624981298.97693706</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>7DA5D9FE-A33D-4FFF-9B95-1F104E2AC53A</string>
+		</dict>
+		<key>887710C0-747A-4702-8FBE-A23F71A5B74F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>887710C0-747A-4702-8FBE-A23F71A5B74F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060503.80636096</real>
+			<key>timeStoppedRecording</key>
+			<real>625060504.364923</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>887710C0-747A-4702-8FBE-A23F71A5B74F</string>
+		</dict>
+		<key>8F781C8D-C82F-4B73-9D01-53DDF114BB8A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8F781C8D-C82F-4B73-9D01-53DDF114BB8A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060344.68481505</real>
+			<key>timeStoppedRecording</key>
+			<real>625060345.21184504</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>8F781C8D-C82F-4B73-9D01-53DDF114BB8A</string>
+		</dict>
+		<key>9060D59F-1CF9-4ACC-B747-C059342AAA0B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9060D59F-1CF9-4ACC-B747-C059342AAA0B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060264.61317003</real>
+			<key>timeStoppedRecording</key>
+			<real>625060265.13923597</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>9060D59F-1CF9-4ACC-B747-C059342AAA0B</string>
+		</dict>
+		<key>A5BF2D00-64D3-437F-BD34-FD4D1F4F114C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A5BF2D00-64D3-437F-BD34-FD4D1F4F114C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058515.14071298</real>
+			<key>timeStoppedRecording</key>
+			<real>625058515.64601398</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>A5BF2D00-64D3-437F-BD34-FD4D1F4F114C</string>
+		</dict>
+		<key>A8F27470-7747-4984-9371-36B33FF519FB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A8F27470-7747-4984-9371-36B33FF519FB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060447.99267304</real>
+			<key>timeStoppedRecording</key>
+			<real>625060448.52795303</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>A8F27470-7747-4984-9371-36B33FF519FB</string>
+		</dict>
+		<key>A8F5C2D4-DE0C-45E2-AC24-99BC3B60BED2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A8F5C2D4-DE0C-45E2-AC24-99BC3B60BED2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058600.35955703</real>
+			<key>timeStoppedRecording</key>
+			<real>625058600.89629197</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>A8F5C2D4-DE0C-45E2-AC24-99BC3B60BED2</string>
+		</dict>
+		<key>B5D19469-B0C9-4AAD-B056-9AF81B867DB9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B5D19469-B0C9-4AAD-B056-9AF81B867DB9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625059601.36571598</real>
+			<key>timeStoppedRecording</key>
+			<real>625059602.07950103</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>B5D19469-B0C9-4AAD-B056-9AF81B867DB9</string>
+		</dict>
+		<key>C47F651F-1A73-4C2A-BB3D-F10675F3F582</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C47F651F-1A73-4C2A-BB3D-F10675F3F582.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058585.85564399</real>
+			<key>timeStoppedRecording</key>
+			<real>625058586.38062</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>C47F651F-1A73-4C2A-BB3D-F10675F3F582</string>
+		</dict>
+		<key>C746FEC7-6415-43E1-A3AC-C406D20B9E90</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C746FEC7-6415-43E1-A3AC-C406D20B9E90.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058638.78255701</real>
+			<key>timeStoppedRecording</key>
+			<real>625058639.298473</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>C746FEC7-6415-43E1-A3AC-C406D20B9E90</string>
+		</dict>
+		<key>E104DEE3-304C-4803-B93E-F20FF1AC41FE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E104DEE3-304C-4803-B93E-F20FF1AC41FE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058736.87347698</real>
+			<key>timeStoppedRecording</key>
+			<real>625058737.38436103</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>E104DEE3-304C-4803-B93E-F20FF1AC41FE</string>
+		</dict>
+		<key>E57A764B-99AC-46F8-B4B3-B84F2D9E27D8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E57A764B-99AC-46F8-B4B3-B84F2D9E27D8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060762.25464499</real>
+			<key>timeStoppedRecording</key>
+			<real>625060762.29259002</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>E57A764B-99AC-46F8-B4B3-B84F2D9E27D8</string>
+		</dict>
+		<key>E6943B5D-F6FC-47B8-86B6-646585771AB8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6943B5D-F6FC-47B8-86B6-646585771AB8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625060760.39885795</real>
+			<key>timeStoppedRecording</key>
+			<real>625060760.48570096</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>E6943B5D-F6FC-47B8-86B6-646585771AB8</string>
+		</dict>
+		<key>F7FD8E91-7980-48AC-BB35-7CA16B3DAE21</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F7FD8E91-7980-48AC-BB35-7CA16B3DAE21.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058757.24541998</real>
+			<key>timeStoppedRecording</key>
+			<real>625058757.75174904</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>F7FD8E91-7980-48AC-BB35-7CA16B3DAE21</string>
+		</dict>
+		<key>FD410DF6-DE1B-4282-8845-3948A4C4D69C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FD410DF6-DE1B-4282-8845-3948A4C4D69C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QRCodeScanner project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QRCodeScanner</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build QRCodeScanner</string>
+			<key>timeStartedRecording</key>
+			<real>625058314.34466803</real>
+			<key>timeStoppedRecording</key>
+			<real>625058315.00976706</real>
+			<key>title</key>
+			<string>Build QRCodeScanner</string>
+			<key>uniqueIdentifier</key>
+			<string>FD410DF6-DE1B-4282-8845-3948A4C4D69C</string>
 		</dict>
 	</dict>
 </dict>

@@ -16,8 +16,8 @@ provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
 - "CastingPrecedence"
+- !private "ScanningScreenViewController"
 - "SceneDelegate"
-- !private "StartingViewController"
 - "UIResponder"
 - "UIScene"
 - "UISceneSession"
@@ -34,7 +34,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "rootViewController"]
 - !private ["So15CALayerDelegateP", "windowScene"]
 - ["s7CVarArgP", "ConnectionOptions"]
-- !private ["s7CVarArgP", "StartingViewController"]
+- !private ["s7CVarArgP", "ScanningScreenViewController"]
 - !private ["s7CVarArgP", "UIWindow"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "coordinateSpace"]
@@ -54,7 +54,7 @@ depends-member:
 - ["Sl", ""]
 - ["SL", ""]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
-- !private ["s28CustomDebugStringConvertibleP", "StartingViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "ScanningScreenViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "coordinateSpace"]
@@ -72,7 +72,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", "windowScene"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
-- !private ["s23CustomStringConvertibleP", "StartingViewController"]
+- !private ["s23CustomStringConvertibleP", "ScanningScreenViewController"]
 - !private ["s23CustomStringConvertibleP", "UIWindow"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "coordinateSpace"]
@@ -90,7 +90,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "windowScene"]
 - ["SQ", "ConnectionOptions"]
-- !private ["SQ", "StartingViewController"]
+- !private ["SQ", "ScanningScreenViewController"]
 - !private ["SQ", "UIWindow"]
 - ["SQ", ""]
 - !private ["SQ", "coordinateSpace"]
@@ -115,7 +115,7 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - ["SH", "ConnectionOptions"]
-- !private ["SH", "StartingViewController"]
+- !private ["SH", "ScanningScreenViewController"]
 - !private ["SH", "UIWindow"]
 - ["SH", ""]
 - !private ["SH", "coordinateSpace"]
@@ -140,7 +140,7 @@ depends-member:
 - !private ["So8NSCodingP", "windowScene"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - ["So8NSObjectC", "ConnectionOptions"]
-- !private ["So8NSObjectC", "StartingViewController"]
+- !private ["So8NSObjectC", "ScanningScreenViewController"]
 - ["So8NSObjectC", "UIScene"]
 - ["So8NSObjectC", "UISceneSession"]
 - ["So8NSObjectC", "UIWindow"]
@@ -161,7 +161,7 @@ depends-member:
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectC", "windowScene"]
 - ["So8NSObjectP", "ConnectionOptions"]
-- !private ["So8NSObjectP", "StartingViewController"]
+- !private ["So8NSObjectP", "ScanningScreenViewController"]
 - ["So8NSObjectP", "UIScene"]
 - ["So8NSObjectP", "UISceneSession"]
 - ["So8NSObjectP", "UIWindow"]
@@ -184,7 +184,9 @@ depends-member:
 - ["So8NSObjectP", "window"]
 - ["So8NSObjectP", "windowScene"]
 - !private ["Sj", ""]
-- !private ["13QRCodeScanner13SceneDelegateC", "StartingViewController"]
+- !private ["13QRCodeScanner28ScanningScreenViewControllerC", ""]
+- !private ["13QRCodeScanner28ScanningScreenViewControllerC", "init"]
+- !private ["13QRCodeScanner13SceneDelegateC", "ScanningScreenViewController"]
 - ["13QRCodeScanner13SceneDelegateC", "UIScene"]
 - ["13QRCodeScanner13SceneDelegateC", "UISceneSession"]
 - ["13QRCodeScanner13SceneDelegateC", "UIWindow"]
@@ -204,8 +206,6 @@ depends-member:
 - ["13QRCodeScanner13SceneDelegateC", "windowScene"]
 - ["ST", ""]
 - !private ["s13SignedNumericP", ""]
-- !private ["13QRCodeScanner22StartingViewControllerC", ""]
-- !private ["13QRCodeScanner22StartingViewControllerC", "init"]
 - !private ["Sx", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
@@ -257,7 +257,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
 - !private ["So24UILargeContentViewerItemP", "windowScene"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
-- !private ["So30UIPasteConfigurationSupportingP", "StartingViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "ScanningScreenViewController"]
 - ["So30UIPasteConfigurationSupportingP", "UIScene"]
 - ["So30UIPasteConfigurationSupportingP", "UISceneSession"]
 - ["So30UIPasteConfigurationSupportingP", "UIWindow"]
@@ -279,7 +279,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "windowScene"]
 - ["So11UIResponderC", "ConnectionOptions"]
-- !private ["So11UIResponderC", "StartingViewController"]
+- !private ["So11UIResponderC", "ScanningScreenViewController"]
 - ["So11UIResponderC", "UIScene"]
 - ["So11UIResponderC", "UISceneSession"]
 - ["So11UIResponderC", "UIWindow"]
@@ -300,7 +300,7 @@ depends-member:
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", "windowScene"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
-- !private ["So30UIResponderStandardEditActionsP", "StartingViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "ScanningScreenViewController"]
 - ["So30UIResponderStandardEditActionsP", "UIScene"]
 - ["So30UIResponderStandardEditActionsP", "UISceneSession"]
 - ["So30UIResponderStandardEditActionsP", "UIWindow"]
@@ -324,7 +324,7 @@ depends-member:
 - ["So7UISceneC", "ConnectionOptions"]
 - ["So7UISceneC", ""]
 - !private ["So7UISceneC", "coordinateSpace"]
-- !private ["So15UISceneDelegateP", "StartingViewController"]
+- !private ["So15UISceneDelegateP", "ScanningScreenViewController"]
 - !private ["So15UISceneDelegateP", "UIWindow"]
 - ["So15UISceneDelegateP", ""]
 - ["So15UISceneDelegateP", "deinit"]
@@ -346,7 +346,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
 - !private ["So18UITraitEnvironmentP", "windowScene"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
-- !private ["So23UIUserActivityRestoringP", "StartingViewController"]
+- !private ["So23UIUserActivityRestoringP", "ScanningScreenViewController"]
 - ["So23UIUserActivityRestoringP", "UIScene"]
 - ["So23UIUserActivityRestoringP", "UISceneSession"]
 - ["So23UIUserActivityRestoringP", "UIWindow"]
@@ -379,7 +379,7 @@ depends-member:
 - !private ["So8UIWindowC", "rootViewController"]
 - !private ["So8UIWindowC", "windowScene"]
 - !private ["So13UIWindowSceneC", "coordinateSpace"]
-- !private ["So21UIWindowSceneDelegateP", "StartingViewController"]
+- !private ["So21UIWindowSceneDelegateP", "ScanningScreenViewController"]
 - !private ["So21UIWindowSceneDelegateP", "UIWindow"]
 - ["So21UIWindowSceneDelegateP", ""]
 - ["So21UIWindowSceneDelegateP", "deinit"]
@@ -398,7 +398,7 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "StartingViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ScanningScreenViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinateSpace"]
@@ -416,7 +416,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "StartingViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ScanningScreenViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIWindow"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "coordinateSpace"]
@@ -461,10 +461,10 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sj"
+- !private "13QRCodeScanner28ScanningScreenViewControllerC"
 - "13QRCodeScanner13SceneDelegateC"
 - "ST"
 - !private "s13SignedNumericP"
-- !private "13QRCodeScanner22StartingViewControllerC"
 - !private "Sx"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"

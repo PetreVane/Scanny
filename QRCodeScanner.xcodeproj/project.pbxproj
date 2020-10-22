@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		0BF358B025405CA8004EBB95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358AF25405CA8004EBB95 /* AppDelegate.swift */; };
 		0BF358B225405CA8004EBB95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358B125405CA8004EBB95 /* SceneDelegate.swift */; };
-		0BF358B425405CA8004EBB95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358B325405CA8004EBB95 /* ViewController.swift */; };
 		0BF358B925405CA9004EBB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF358B825405CA9004EBB95 /* Assets.xcassets */; };
 		0BF358BC25405CA9004EBB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF358BA25405CA9004EBB95 /* LaunchScreen.storyboard */; };
 		0BF358C625405E04004EBB95 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358C525405E04004EBB95 /* StartingViewController.swift */; };
+		0BF358CA2540669B004EBB95 /* ScanningScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358C92540669B004EBB95 /* ScanningScreenViewController.swift */; };
+		0BF358CD25406E86004EBB95 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358CC25406E86004EBB95 /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BF358AC25405CA8004EBB95 /* QRCodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF358AF25405CA8004EBB95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BF358B125405CA8004EBB95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BF358B325405CA8004EBB95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BF358B825405CA9004EBB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF358BB25405CA9004EBB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF358BD25405CA9004EBB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BF358C525405E04004EBB95 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		0BF358C92540669B004EBB95 /* ScanningScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningScreenViewController.swift; sourceTree = "<group>"; };
+		0BF358CC25406E86004EBB95 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				0BF358AF25405CA8004EBB95 /* AppDelegate.swift */,
 				0BF358B125405CA8004EBB95 /* SceneDelegate.swift */,
-				0BF358B325405CA8004EBB95 /* ViewController.swift */,
+				0BF358D92541AB54004EBB95 /* Resources */,
+				0BF358DB2541ABBA004EBB95 /* Visual Elements */,
+				0BF358D72541AB46004EBB95 /* Screens */,
+			);
+			path = QRCodeScanner;
+			sourceTree = "<group>";
+		};
+		0BF358D72541AB46004EBB95 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0BF358C525405E04004EBB95 /* StartingViewController.swift */,
+				0BF358C92540669B004EBB95 /* ScanningScreenViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0BF358D92541AB54004EBB95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0BF358B825405CA9004EBB95 /* Assets.xcassets */,
 				0BF358BA25405CA9004EBB95 /* LaunchScreen.storyboard */,
 				0BF358BD25405CA9004EBB95 /* Info.plist */,
-				0BF358C525405E04004EBB95 /* StartingViewController.swift */,
 			);
-			path = QRCodeScanner;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BF358DB2541ABBA004EBB95 /* Visual Elements */ = {
+			isa = PBXGroup;
+			children = (
+				0BF358CC25406E86004EBB95 /* CustomLabel.swift */,
+			);
+			path = "Visual Elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF358B425405CA8004EBB95 /* ViewController.swift in Sources */,
 				0BF358B025405CA8004EBB95 /* AppDelegate.swift in Sources */,
+				0BF358CD25406E86004EBB95 /* CustomLabel.swift in Sources */,
+				0BF358CA2540669B004EBB95 /* ScanningScreenViewController.swift in Sources */,
 				0BF358C625405E04004EBB95 /* StartingViewController.swift in Sources */,
 				0BF358B225405CA8004EBB95 /* SceneDelegate.swift in Sources */,
 			);
@@ -280,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W3WH25P2R;
-				INFOPLIST_FILE = QRCodeScanner/Info.plist;
+				INFOPLIST_FILE = QRCodeScanner/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9W3WH25P2R;
-				INFOPLIST_FILE = QRCodeScanner/Info.plist;
+				INFOPLIST_FILE = QRCodeScanner/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
