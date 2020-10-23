@@ -7,18 +7,26 @@
 
 import UIKit
 
-
+protocol StartingViewControllerDelegate: AnyObject {
+    func didPressScanButton()
+}
 
 class StartingViewController: UIViewController {
     
+    
+    // TODO: - Configure button
+    
+    weak var delegate: StartingViewControllerDelegate?
     let customLabel = UILabel()
     let customImage = UIImageView()
+    let scanButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         customizeLabel()
-        customizeImage()
+//        customizeImage()
+        configureScanButton()
     }
     
    
@@ -38,22 +46,34 @@ class StartingViewController: UIViewController {
             customLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 100),
             customLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -100)
         ])
-
     }
     
     
-    func customizeImage() {
-        view.addSubview(customImage)
-        customImage.translatesAutoresizingMaskIntoConstraints = false
+    func configureScanButton() {
+        view.addSubview(scanButton)
+        scanButton.translatesAutoresizingMaskIntoConstraints = false
+        scanButton.setImage(UIImage(named: "focus"), for: .normal)
         
-        customImage.image = UIImage(named: "focus")
-        NSLayoutConstraint.activate([
-            
-            customImage.topAnchor.constraint(equalTo: customLabel.bottomAnchor, constant: 200),
-            customImage.leadingAnchor.constraint(equalTo: customLabel.leadingAnchor),
-            customImage.trailingAnchor.constraint(equalTo: customLabel.trailingAnchor),
-            customImage.heightAnchor.constraint(equalToConstant: 150)
-        ])
+        let xConstr = scanButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        let yConstr = scanButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        let width = scanButton.widthAnchor.constraint(equalToConstant: 100)
+        let height = scanButton.heightAnchor.constraint(equalToConstant: 100)
+        NSLayoutConstraint.activate([xConstr, yConstr, width, height])
         
+        scanButton.addTarget(self, action: #selector(instantiateScanScreen), for: .touchUpInside)
+    }
+    
+    @objc private func instantiateScanScreen() {
+        delegate?.didPressScanButton()
+        print("Scan button pressed ...")
+    }
+}
+
+
+extension StartingViewController {
+    class func instantiate(delegate: StartingViewControllerDelegate) -> StartingViewController {
+        let vc = StartingViewController()
+        vc.delegate = delegate
+        return vc
     }
 }

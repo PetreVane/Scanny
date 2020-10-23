@@ -8,6 +8,9 @@
 import UIKit
 
 
+protocol ScanningScreenDelegate: AnyObject {
+    func didPressBackButton(onViewController: UIViewController)
+}
 
 class ScanningScreenViewController: UIViewController {
     
@@ -15,7 +18,7 @@ class ScanningScreenViewController: UIViewController {
     let topLabel = CustomLabel(text: "Scan", color: .white, alignment: .center)
     let bottomLabel = CustomLabel(text: "No QR Code detected", color: #colorLiteral(red: 0.05882352963, green: 0.180392161, blue: 0.2470588237, alpha: 1), alignment: .center)
     let closeButton = UIButton(type: .close)
-    
+    weak var delegate: ScanningScreenDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,7 +69,6 @@ class ScanningScreenViewController: UIViewController {
     
     func configureButton() {
         closeButton.addTarget(self, action: #selector(windBack), for: .touchUpInside)
-//        closeButton.setImage(UIImage(named: "cross"), for: .normal)
         closeButton.translatesAutoresizingMaskIntoConstraints = false
         closeButton.setBackgroundImage(UIImage(named: "cross"), for: .normal)
         closeButton.tintColor = .blue
@@ -82,5 +84,14 @@ class ScanningScreenViewController: UIViewController {
     
     @objc func windBack() {
         print("Winding back ..")
+        delegate?.didPressBackButton(onViewController: self)
+    }
+}
+
+extension ScanningScreenViewController {
+    class func instantiate(delegate: ScanningScreenDelegate) -> ScanningScreenViewController {
+        let vc = ScanningScreenViewController()
+        vc.delegate = delegate
+        return vc
     }
 }

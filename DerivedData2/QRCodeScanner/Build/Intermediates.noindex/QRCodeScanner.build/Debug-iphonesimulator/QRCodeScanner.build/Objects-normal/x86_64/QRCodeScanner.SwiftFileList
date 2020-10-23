@@ -1,6 +1,7 @@
 /Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/AppDelegate.swift
 /Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Visual\ Elements/CustomLabel.swift
-/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Coordinator/Coordinator.swift
+/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Coordinator/MainCoordinator.swift
 /Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Screens/ScanningScreenViewController.swift
 /Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Screens/StartingViewController.swift
 /Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/SceneDelegate.swift
+/Volumes/SecondaryDrive/Github-Projects/QRCodeScanner/QRCodeScanner/Protocols/Coordinator.swift

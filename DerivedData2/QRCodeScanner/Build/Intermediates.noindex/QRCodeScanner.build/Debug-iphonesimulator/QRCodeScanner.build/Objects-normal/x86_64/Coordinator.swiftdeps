@@ -2,17 +2,20 @@
 provides-top-level:
 - "Coordinator"
 provides-nominal:
-- "13QRCodeScanner11CoordinatorC"
+- "13QRCodeScanner11CoordinatorP"
 provides-member:
-- ["13QRCodeScanner11CoordinatorC", ""]
+- ["13QRCodeScanner11CoordinatorP", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "Coordinator"
+- "UIViewController"
 depends-member:
-- ["13QRCodeScanner11CoordinatorC", "deinit"]
-- ["13QRCodeScanner11CoordinatorC", "init"]
+- ["13QRCodeScanner11CoordinatorP", "UIViewController"]
+- ["13QRCodeScanner11CoordinatorP", "childControllers"]
+- ["So8NSObjectP", ""]
 depends-nominal:
-- "13QRCodeScanner11CoordinatorC"
+- "13QRCodeScanner11CoordinatorP"
+- "So8NSObjectP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -43,4 +46,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9d591001d829fb90a5337f430133060a"
+interface-hash: "a83c05639bc385357106427d068b538e"
