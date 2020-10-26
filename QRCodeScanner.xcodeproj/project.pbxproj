@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6778A52547034F001CC2EF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6778A42547034F001CC2EF /* CustomButton.swift */; };
 		0B7DA55925430EE800E923FA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DA55825430EE800E923FA /* Coordinator.swift */; };
 		0B7DA55D2543377100E923FA /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DA55C2543377100E923FA /* Scanner.swift */; };
 		0BDF1D2C2541ADD8005C71E8 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF1D2B2541ADD8005C71E8 /* MainCoordinator.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B6778A42547034F001CC2EF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		0B7DA55825430EE800E923FA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0B7DA55C2543377100E923FA /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
 		0BDF1D2B2541ADD8005C71E8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				0BF358CC25406E86004EBB95 /* CustomLabel.swift */,
+				0B6778A42547034F001CC2EF /* CustomButton.swift */,
 			);
 			path = "Visual Elements";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				0BF358B025405CA8004EBB95 /* AppDelegate.swift in Sources */,
 				0BF358CD25406E86004EBB95 /* CustomLabel.swift in Sources */,
+				0B6778A52547034F001CC2EF /* CustomButton.swift in Sources */,
 				0B7DA55D2543377100E923FA /* Scanner.swift in Sources */,
 				0BDF1D2C2541ADD8005C71E8 /* MainCoordinator.swift in Sources */,
 				0BF358CA2540669B004EBB95 /* ScanningScreenViewController.swift in Sources */,

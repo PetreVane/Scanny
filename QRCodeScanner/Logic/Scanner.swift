@@ -12,6 +12,7 @@ protocol ScannerDelegate: UIViewController {
     func showError()
     func moveSubviewsToFront()
     func showDecodedText(_ text: String)
+    func didStartCapturing(_ capturingStarted: Bool)
 }
 
 class Scanner: NSObject {
@@ -63,6 +64,7 @@ class Scanner: NSObject {
         } catch let error {
             // If any error occurs, simply print it out and don't continue any more
             print("Error capturing Session: \(error.localizedDescription)")
+            delegate?.didStartCapturing(false)
             return
         }
         
@@ -88,6 +90,8 @@ class Scanner: NSObject {
             delegate?.view.addSubview(qrCodeFrameView)
             delegate?.view.bringSubviewToFront(qrCodeFrameView)
         }
+        
+        delegate?.didStartCapturing(true)
     }
     
     

@@ -16,9 +16,10 @@ protocol ScanningScreenDelegate: AnyObject {
 class ScanningScreenViewController: UIViewController {
     
     let topBar = UIView()
-    let scanButton = UIButton()
+    let scanButton = CustomButton(title: "Start scanning")
+    let closeButton = CustomButton(title: "Stop scanning")
     let bottomLabel = CustomLabel(text: "No QR Code detected", color: #colorLiteral(red: 0.05882352963, green: 0.180392161, blue: 0.2470588237, alpha: 1), alignment: .center)
-    let closeButton = UIButton(type: .close)
+    
     weak var delegate: ScanningScreenDelegate?
     let scanner = Scanner()
     
@@ -28,7 +29,7 @@ class ScanningScreenViewController: UIViewController {
         scanner.delegate = self
         configureBottomLabel()
         configureTopBar()
-        configureButton()
+        configureCloseButton()
     }
         
     
@@ -60,37 +61,31 @@ class ScanningScreenViewController: UIViewController {
     
     func configureScanButton() {
         topBar.addSubview(scanButton)
-        scanButton.backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
-        scanButton.translatesAutoresizingMaskIntoConstraints = false
-        scanButton.setTitle("Press to Scan", for: .normal)
-        
+        scanButton.setTitleColor(.green, for: .normal)
         let topConstr = scanButton.topAnchor.constraint(equalTo: topBar.topAnchor, constant: 70)
         let leadingConst = scanButton.leadingAnchor.constraint(equalTo: topBar.leadingAnchor, constant: 100)
         let trailingConstr = scanButton.trailingAnchor.constraint(equalTo: topBar.trailingAnchor, constant: -100)
         let heightConstr = scanButton.heightAnchor.constraint(equalToConstant: 35)
         
         NSLayoutConstraint.activate([topConstr, leadingConst, trailingConstr, heightConstr])
-        scanButton.addTarget(self, action: #selector(startScanning), for: .touchUpInside)
+        scanButton.addTarget(self, action: #selector(didStartCapturing(_:)), for: .touchUpInside)
     }
     
-    func configureButton() {
+    func configureCloseButton() {
         closeButton.addTarget(self, action: #selector(windBack), for: .touchUpInside)
-        closeButton.translatesAutoresizingMaskIntoConstraints = false
-        closeButton.setBackgroundImage(UIImage(named: "cross"), for: .normal)
-        closeButton.tintColor = .blue
+        closeButton.setTitleColor(.orange, for: .normal)
         topBar.addSubview(closeButton)
         
-        let topConstr = closeButton.topAnchor.constraint(equalTo: scanButton.topAnchor, constant: 10)
-        let leadingConstr = closeButton.leadingAnchor.constraint(equalTo: topBar.leadingAnchor, constant: 25)
-        let trailingConstr = closeButton.trailingAnchor.constraint(equalTo: scanButton.leadingAnchor, constant: -55)
-        let heightConstr = closeButton.heightAnchor.constraint(equalToConstant: 15)
+        let topConstr = closeButton.topAnchor.constraint(equalTo: topBar.topAnchor, constant: 70)
+        let leadingConst = closeButton.leadingAnchor.constraint(equalTo: topBar.leadingAnchor, constant: 100)
+        let trailingConstr = closeButton.trailingAnchor.constraint(equalTo: topBar.trailingAnchor, constant: -100)
+        let heightConstr = closeButton.heightAnchor.constraint(equalToConstant: 35)
         
-        NSLayoutConstraint.activate([topConstr, leadingConstr, trailingConstr, heightConstr])
+        
+        NSLayoutConstraint.activate([topConstr, leadingConst, trailingConstr, heightConstr])
+        closeButton.isHidden = true
     }
     
-    @objc func startScanning() {
-        scanner.startCapturingSession()
-    }
     
     @objc func windBack() {
         print("Winding back ..")
@@ -107,6 +102,21 @@ extension ScanningScreenViewController {
 }
 
 extension ScanningScreenViewController: ScannerDelegate {
+    
+    @objc
+    func didStartCapturing(_ capturingStarted: Bool) {
+        if capturingStarted {
+            scanButton.isHidden = true
+            closeButton.isHidden = false
+            return
+        } else {
+            scanButton.isHidden = false
+            closeButton.isHidden = true
+            scanner.startCapturingSession()
+        }
+    }
+    
+    
     func showDecodedText(_ text: String) {
         bottomLabel.text = text
     }

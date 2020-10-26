@@ -41,11 +41,14 @@ class MainCoordinator: NSObject, Coordinator {
     }
     
     func presentScanningScreen() {
+        if childControllers.count > 1 { navigationController?.present(childControllers.last!, animated: true, completion: nil); return }
+        else { startScanningScreen() }
         navigationController?.present(childControllers.last!, animated: true, completion: nil)
     }
     
     func dismissScanningScreen() {
         navigationController?.dismiss(animated: true, completion: nil)
+        childControllers.removeLast()
     }
     
 }
