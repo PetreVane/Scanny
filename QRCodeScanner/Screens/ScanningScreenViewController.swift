@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 
 protocol ScanningScreenDelegate: AnyObject {
@@ -15,14 +16,16 @@ protocol ScanningScreenDelegate: AnyObject {
 class ScanningScreenViewController: UIViewController {
     
     let topBar = UIView()
-    let topLabel = CustomLabel(text: "Scan", color: .white, alignment: .center)
+    let scanButton = UIButton()
     let bottomLabel = CustomLabel(text: "No QR Code detected", color: #colorLiteral(red: 0.05882352963, green: 0.180392161, blue: 0.2470588237, alpha: 1), alignment: .center)
     let closeButton = UIButton(type: .close)
     weak var delegate: ScanningScreenDelegate?
+    let scanner = Scanner()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        scanner.delegate = self
         configureBottomLabel()
         configureTopBar()
         configureButton()
@@ -52,19 +55,22 @@ class ScanningScreenViewController: UIViewController {
         let heightConstr = topBar.heightAnchor.constraint(equalToConstant: 125)
         
         NSLayoutConstraint.activate([topConstr, leadingConstr, trailingConstr, heightConstr])
-        configureTopLabel()
+        configureScanButton()
     }
     
-    func configureTopLabel() {
-        topBar.addSubview(topLabel)
-        topLabel.backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+    func configureScanButton() {
+        topBar.addSubview(scanButton)
+        scanButton.backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        scanButton.translatesAutoresizingMaskIntoConstraints = false
+        scanButton.setTitle("Press to Scan", for: .normal)
         
-        let topConstr = topLabel.topAnchor.constraint(equalTo: topBar.topAnchor, constant: 70)
-        let leadingConst = topLabel.leadingAnchor.constraint(equalTo: topBar.leadingAnchor, constant: 100)
-        let trailingConstr = topLabel.trailingAnchor.constraint(equalTo: topBar.trailingAnchor, constant: -100)
-        let heightConstr = topLabel.heightAnchor.constraint(equalToConstant: 35)
+        let topConstr = scanButton.topAnchor.constraint(equalTo: topBar.topAnchor, constant: 70)
+        let leadingConst = scanButton.leadingAnchor.constraint(equalTo: topBar.leadingAnchor, constant: 100)
+        let trailingConstr = scanButton.trailingAnchor.constraint(equalTo: topBar.trailingAnchor, constant: -100)
+        let heightConstr = scanButton.heightAnchor.constraint(equalToConstant: 35)
         
         NSLayoutConstraint.activate([topConstr, leadingConst, trailingConstr, heightConstr])
+        scanButton.addTarget(self, action: #selector(startScanning), for: .touchUpInside)
     }
     
     func configureButton() {
@@ -74,12 +80,16 @@ class ScanningScreenViewController: UIViewController {
         closeButton.tintColor = .blue
         topBar.addSubview(closeButton)
         
-        let topConstr = closeButton.topAnchor.constraint(equalTo: topLabel.topAnchor, constant: 10)
+        let topConstr = closeButton.topAnchor.constraint(equalTo: scanButton.topAnchor, constant: 10)
         let leadingConstr = closeButton.leadingAnchor.constraint(equalTo: topBar.leadingAnchor, constant: 25)
-        let trailingConstr = closeButton.trailingAnchor.constraint(equalTo: topLabel.leadingAnchor, constant: -55)
+        let trailingConstr = closeButton.trailingAnchor.constraint(equalTo: scanButton.leadingAnchor, constant: -55)
         let heightConstr = closeButton.heightAnchor.constraint(equalToConstant: 15)
         
         NSLayoutConstraint.activate([topConstr, leadingConstr, trailingConstr, heightConstr])
+    }
+    
+    @objc func startScanning() {
+        scanner.startCapturingSession()
     }
     
     @objc func windBack() {
@@ -93,5 +103,21 @@ extension ScanningScreenViewController {
         let vc = ScanningScreenViewController()
         vc.delegate = delegate
         return vc
+    }
+}
+
+extension ScanningScreenViewController: ScannerDelegate {
+    func showDecodedText(_ text: String) {
+        bottomLabel.text = text
+    }
+    
+
+    func showError() {
+        bottomLabel.text = "Missing QR Code"
+    }
+    
+    func moveSubviewsToFront() {
+        view.bringSubviewToFront(bottomLabel)
+        view.bringSubviewToFront(topBar)
     }
 }
