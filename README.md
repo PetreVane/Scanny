@@ -19,3 +19,4 @@ Pull requests are welcome although I don't see the point of contributing to a tr
 <img src="https://user-images.githubusercontent.com/22425017/97188542-e724f880-17a3-11eb-9c16-e25847fad674.PNG" width="200">
 
 ### License
+[MIT](https://choosealicense.com/licenses/mit/)
